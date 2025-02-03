@@ -19,15 +19,22 @@ Recover affected systems to normal operation and restore systems data and/or ass
 **Identify:** The attack identified in this incident was the Distributed Denial of Service(DDoS) attack, specifically an ICMP flood attack (Ping flood) where the attacker sends an overwhelming number of ICMP packets to saturate the target processing capacity. The system affected was the network infrastructure that impacted the internal network rendering critical and non-critical network services inaccessible The firewall was also exploited as the entry point of the attack.
 
 **Protect:** To protect the organization, various systems or procedures need to be updated or changed to further secure the organization’s assets which are;
+
 Firewall Configuration and Management: The organization should ensure that the firewall is configured to block unnecessary ICMP, regularly review and update firewall rules to adapt to evolving threats and conduct a full audit of firewall configurations ensuring that no other vulnerabilities exist.
+
 Network Security: tools like SIEN can be used to monitor and analyze logs for signs of attack, organizations should also implement the use of Intrusion Detection and Prevention Systems(IDS and IPS) to detect, prevent and block unusual traffic patterns.
+
 Incident Response Plan Update: Organizations should include protocols in handling DDos attack incase they come across any incident like that again.
 Patch Management: organizations should ensure that they regularly update all network hardware to the latest firmware patch known vulnerabilities.
+
 Employee Training and Awareness: organizations should employ expertise or world class security specialists to train staff on identifying signs of network issues.
 
 **Detect:** Considering ways the organization can monitor and analyze network traffic, software applications, track authorized versus unauthorized users, and detect any unusual activity on user accounts. Below are some strategies:
+
 Network Traffic Monitoring: tools like Wiresharks or Solarwinds should be implemented to continuously monitor traffic patterns and detect unusual spikes. The organization should also utilize NetFlow to analyze and distinguish between legitimate and anomalous traffic.
+
 Application Monitoring: Web applications firewalls should be deployed to protect from malicious requests such as SQL injections or cross site scripting.
+
 User Activity Tracking: Implementation of IAM solutions like Azure AD to track users access.
 Endpoint Monitoring: using tools like Crowdstrike to monitor endpoint activity and to detect unusual behavior on endpoints
 
