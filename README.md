@@ -11,7 +11,8 @@ Protect internal assets through the implementation of policies, procedures, trai
 Detect potential security incidents and improve monitoring capabilities to increase the speed and efficiency of detections.
 Respond to contain, neutralize, and analyze security incidents; implement improvements to the security process.
 Recover affected systems to normal operation and restore systems data and/or assets that have been affected by an incident
-SOLUTION
+
+**SOLUTION**
 
 **Summary:** The summary of this event is about a multimedia company that experienced a Distributed Denial of Service (DDoS) attack specifically utilizing an ICMP flood, which caused two hours of network downtime whereby both internal and external users were unable to access critical resources. It was caused by an unconfigured firewall that allowed malicious ICMP packets to overwhelm the network. The mitigation steps taken were blocking incoming ICMP packets , stopping all non-critical network services and then restoring critical services to stabilize the network.
 
